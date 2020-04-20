@@ -9,7 +9,7 @@ public class SemaforoBinario {
 	public synchronized void P()
 	{
 		while(value == false)
-		Util.myWait(this); //en cola de procesos bloqueados
+			Util.myWait(this); //en cola de procesos bloqueados
 		value = false;
 	}
 	public synchronized void V()
