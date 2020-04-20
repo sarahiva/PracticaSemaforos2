@@ -1,6 +1,6 @@
 package problema;
 
-public class BufferLimitado extends javax.swing.JFrame {
+public class BufferLimitado{
 	final int size = 10; 
 	double buffer[] = new double[size];
 	int inBuf = 0, outBuf = 0;
